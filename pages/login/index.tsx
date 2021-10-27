@@ -1,12 +1,12 @@
 import { Button } from 'antd';
 import React from 'react';
-// import './index.less';
+import style from '../../styles/new.module.css';
 
 
 const Index = () => {
 
     return (
-        <div className="site-button-ghost-wrapper">
+        <div className={style.wrapper}>
             <Button type="primary" ghost>
                 Primary
             </Button>
